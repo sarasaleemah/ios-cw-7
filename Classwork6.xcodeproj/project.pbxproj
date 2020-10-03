@@ -3,10 +3,12 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		674F67782528D29C0022C990 /* MovieMasterVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 674F67772528D29C0022C990 /* MovieMasterVC.swift */; };
+		674F677A2528E9600022C990 /* MovieDetailsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 674F67792528E9600022C990 /* MovieDetailsVC.swift */; };
 		9F560D9C2492AFD3000E581A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F560D9B2492AFD3000E581A /* AppDelegate.swift */; };
 		9F560D9E2492AFD3000E581A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F560D9D2492AFD3000E581A /* SceneDelegate.swift */; };
 		9F560DA32492AFD3000E581A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9F560DA12492AFD3000E581A /* Main.storyboard */; };
@@ -16,6 +18,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		674F67772528D29C0022C990 /* MovieMasterVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieMasterVC.swift; sourceTree = "<group>"; };
+		674F67792528E9600022C990 /* MovieDetailsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieDetailsVC.swift; sourceTree = "<group>"; };
 		9F560D982492AFD3000E581A /* Classwork6.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Classwork6.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9F560D9B2492AFD3000E581A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9F560D9D2492AFD3000E581A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -60,6 +64,8 @@
 				9F560D9D2492AFD3000E581A /* SceneDelegate.swift */,
 				9F560DB324947479000E581A /* MoviesDataModel.swift */,
 				9F560DA12492AFD3000E581A /* Main.storyboard */,
+				674F67792528E9600022C990 /* MovieDetailsVC.swift */,
+				674F67772528D29C0022C990 /* MovieMasterVC.swift */,
 				9F560DA42492AFD4000E581A /* Assets.xcassets */,
 				9F560DA62492AFD4000E581A /* LaunchScreen.storyboard */,
 				9F560DA92492AFD4000E581A /* Info.plist */,
@@ -103,7 +109,7 @@
 				};
 			};
 			buildConfigurationList = 9F560D932492AFD3000E581A /* Build configuration list for PBXProject "Classwork6" */;
-			compatibilityVersion = "Xcode 9.3";
+			compatibilityVersion = "Xcode 11.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -141,6 +147,8 @@
 				9F560DB424947479000E581A /* MoviesDataModel.swift in Sources */,
 				9F560D9C2492AFD3000E581A /* AppDelegate.swift in Sources */,
 				9F560D9E2492AFD3000E581A /* SceneDelegate.swift in Sources */,
+				674F67782528D29C0022C990 /* MovieMasterVC.swift in Sources */,
+				674F677A2528E9600022C990 /* MovieDetailsVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -284,15 +292,18 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = HP353X75NF;
 				INFOPLIST_FILE = Classwork6/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.KuwaitCodes.Classwork6;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Classwork6;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -302,15 +313,18 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = HP353X75NF;
 				INFOPLIST_FILE = Classwork6/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.KuwaitCodes.Classwork6;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Classwork6;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
